@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 253, 253);
+}
+
+h1 {
+  color: navy;
+}
+
+li {
+  list-style: none;
+  padding: 0px;
+  font-size: medium;
+  margin-bottom: 20px;
+}
+
+.seperate {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: center;
+}
+
+.menubar {
+  width: 30%;
+}
+
+.home {
+  color: #1da1f2;
+}
+.main {
+  width: 70%;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  fill: #1da1f2;
+}
+.button {
+  font-size: 20px;
+  padding: 15px 45px;
+  border-radius: 50px;
+  background-color: #1da1f2;
+  border: none;
+  transition: 0.3s;
+  color: white;
+}
+.button:hover {
+  background-color: #003353;
+  transition: 0.3s;
+}
+.pp1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: calc(0);
+}
+
+.ttweet {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.text {
+  height: 45px;
+  padding: 5px 260px 5px 20px;
+  border-radius: 50px;
+  text-align: left;
+  background-color: rgb(172, 182, 182);
+  border: none;
+  transition: 0.3s;
+}
+
+/* .text:hover {
+  background-color: #e6e6fa;
+} */
+
+.text:focus {
+  background-color: #e6e6fa;
+  outline: none;
+  transition: 0.3s;
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding-left: 0%;
+  line-height: 25px;
+}
+
+.spic {
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  fill: #3294d1;
+}
+
+.pp2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: calc(0);
+}
+
+.twt1 {
+  display: flex;
+  gap: 10px;
+}
+
+.nama2 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.username {
+  font-weight: bold;
+}
+.username1 {
+  color: #7b7b89;
+}
+
+.actionbut {
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  fill: #000000;
+}
+.action {
+  display: flex;
+  gap: 80px;
+  color: black;
+}
+
+.action1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: black;
+  fill: black;
+}
+.tgambar {
+  width: 480px;
+  height: 300px;
+  border-radius: 3%;
+}
+.isitwtr {
+  gap: 100px;
+}
